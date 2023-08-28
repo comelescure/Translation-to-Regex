@@ -2,6 +2,10 @@ import streamlit as st
 from deep_translator import GoogleTranslator
 import pandas as pd
 
+st.set_page_config(page_title = "Translation to Regex",
+                   page_icon = ":fox:",
+                   layout = 'wide')
+
 st.header("Translation 2 Regex")
 
 col1, colu2 = st.columns(2)
